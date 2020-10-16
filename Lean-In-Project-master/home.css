@@ -15,27 +15,25 @@ margin-top: 0px;
 padding-top: 0px;
 }
 .part1 #link , #link1{
-
   color: white;
   font-size: 20px;
-
   margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
 }
 .part1 #link:hover{
-  background-color: transparent;
-  color : white ;
-  text-decoration: underline;
-
+  background-color: seagreen;
+  color : white;
+  border: 1px solid transparent;
 }
 .part1 #link1:hover{
-  background-color: transparent;
-  color : white ;
-  text-decoration: underline;
-
+  background-color: seagreen;
+  color : white;
+  border: 1px solid transparent;
 }
 .navbar.scrolled{
     background: tomato;
-    transition: background 1s;
+    transition: background 1.5s;
 
 }
 
@@ -48,7 +46,6 @@ padding-top: 0px;
 }
 
 .button{
-
 display: inline-block;
 margin-left: 150px;
 margin-top: 20px;
@@ -199,14 +196,16 @@ margin-top: 20px;
   height:2px;
   background-color: tomato;
   position: absolute;
-  left:45%;
+  left: 45%;
   margin-top: 5px;
-
+  color :black;
+}
+#count{
+  color: black;
 }
 #h2{
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
 
 #part4 img{
