@@ -6,7 +6,7 @@
 .part1{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("background.jpeg");
   background-size: cover;
-  height : 100vh;
+  height : 150vh;
 }
 .part1 img{
 width: 80px;
@@ -26,16 +26,7 @@ padding-top: 0px;
   color : white;
   border: 1px solid transparent;
 }
-.part1 #link1:hover{
-  background-color: seagreen;
-  color : white;
-  border: 1px solid transparent;
-}
-.navbar.scrolled{
-    background: tomato;
-    transition: background 1.5s;
 
-}
 
 .cont{
   float:left;
@@ -46,9 +37,10 @@ padding-top: 0px;
 }
 
 .button{
-display: inline-block;
 margin-left: 150px;
 margin-top: 20px;
+padding-top : 20px;
+padding-bottom : 20px;
 }
 
 .btn-success{
@@ -70,12 +62,13 @@ margin-top: 20px;
   height:60px;
   width:200px;
   background: transparent;
-  color : cyan;
+  color : peach;
   border : 2px solid cyan;
 }
 .btn-kk:hover {
   color: #FFF;
-  background-color: #7ED6DF;
+  background-color: peach;
+float : right;
 
 
 }
